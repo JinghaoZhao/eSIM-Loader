@@ -1,6 +1,10 @@
+import sys
+import time
+
 from smartcard.CardRequest import *
 from smartcard.Exceptions import *
 from smartcard.System import *
+from smartcard.CardConnection import CardConnection
 from pytlv.TLV import TLV
 
 
@@ -25,7 +29,7 @@ class SIM_Reader(object):
         except CardRequestTimeoutException:
             raise CardRequestTimeoutException
         try:
-            self._con.connect()
+            self._con.connect(protocol=CardConnection.T0_protocol)
         except NoCardException:
             raise NoCardException
 
