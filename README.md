@@ -59,3 +59,16 @@ By default, the profile will be exported to `./profile-read`:
 [eSIM-Applet]: https://github.com/JinghaoZhao/eSIM-Applet
 [WING-SMDP]: https://github.com/JinghaoZhao/WING-SMDP
 [LPA-App]: https://github.com/JinghaoZhao/LPA-App
+
+
+## Citation
+If you find this repo useful, please cite our paper.
+```
+@inproceedings{zhao2021securesim,
+  title={SecureSIM: rethinking authentication and access control for SIM/eSIM},
+  author={Zhao, Jinghao and Ding, Boyan and Guo, Yunqi and Tan, Zhaowei and Lu, Songwu},
+  booktitle={Proceedings of the 27th Annual International Conference on Mobile Computing and Networking},
+  pages={451--464},
+  year={2021}
+}
+```
