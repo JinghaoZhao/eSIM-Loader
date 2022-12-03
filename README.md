@@ -56,7 +56,7 @@ By default, the profile will be exported to `./profile-read`:
 
 [eSIM-WING]: https://github.com/JinghaoZhao/eSIM-WING
 [eSIM-Loader]: https://github.com/JinghaoZhao/eSIM-Loader
-[eSIM-Applet]: https://github.com/JinghaoZhao/eSIM-Applet
+[eSIM-Applet]: https://github.com/Project-Flora/Flora-eSIM
 [WING-SMDP]: https://github.com/JinghaoZhao/WING-SMDP
 [LPA-App]: https://github.com/JinghaoZhao/LPA-App
 
